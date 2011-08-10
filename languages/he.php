@@ -14,7 +14,7 @@
 			
 			'login' => "כניסה",
 			'loginok' => "נכנסת למערכת.",
-			'loginerror' => "We couldn't log you in. This may be because you haven't validated your account yet, or the details you supplied were incorrect. Make sure your details are correct and please try again.",
+			'loginerror' => "לא ניתן להיכנס. ייתכן כי טרם אישרת את החשבון, או שהפרטים שסיפקת אינם נכונים. ודא שפרטיך נכונים ונסה שוב.",
 	
 			'logout' => "יציאה",
 			'logoutok' => "התקנת בהצלחה.",
@@ -219,9 +219,9 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 			'widgets:rightcolumn' => "רכיבים לימין",
 			'widgets:profilebox' => "קופסת פרופיל",
 			'widgets:panel:save:success' => "הרכיבים נשמרו בהצלחה.",
-			'widgets:panel:save:failure' => "There was a problem saving your widgets. Please try again.",
+			'widgets:panel:save:failure' => "בעיה בשמירת הרכיבים. נסה שוב.",
 			'widgets:save:success' => "הרכיב נשמר בהצלחה.",
-			'widgets:save:failure' => "We could not save your widget. Please try again.",
+			'widgets:save:failure' => "לא ניתן לשמור את הרכיב. נסה שוב.",
 			
 	
 		/**
@@ -275,11 +275,11 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 			'profile:river:update' => "עדכן/ה את הפרופיל האישי %s",
 			'profile:river:iconupdate' => " %s עדכן/ה את תמונת הפרופיל",
 	
-			'profile:label' => "Profile label",
+			'profile:label' => "תווית פרופיל",
 			'profile:type' => "סוג פרופיל",
 	
-			'profile:editdefault:fail' => 'Default profile could not be saved',
-			'profile:editdefault:success' => 'Item successfully added to default profile',
+			'profile:editdefault:fail' => 'לא ניתן לשמור פרופיל',
+			'profile:editdefault:success' => 'רכיב נוסף בהצלחה לפרופיל',
 	
 			
 			'profile:editdefault:delete:fail' => 'Removed default profile item field failed',
@@ -293,17 +293,17 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 		 * Profile status messages
 		 */
 	
-			'profile:saved' => "Your profile was successfully saved.",
-			'profile:icon:uploaded' => "Your profile picture was successfully uploaded.",
+			'profile:saved' => "פרופיל נשמר בהצלחה.",
+			'profile:icon:uploaded' => "תמונת פרופיל נועלתה בהצלחה.",
 	
 		/**
 		 * Profile error messages
 		 */
 	
 			'profile:noaccess' => "אין לך הרשאות לערוך פרופיל זה.",
-			'profile:notfound' => "Sorry; we could not find the specified profile.",
-			'profile:cantedit' => "Sorry; you do not have permission to edit this profile.",
-			'profile:icon:notfound' => "Sorry; there was a problem uploading your profile picture.",
+			'profile:notfound' => "לא ניתן למצוא את הפרופיל המבוקש.",
+			'profile:cantedit' => "אין לך הרשאות לערוך פרופיל זה.",
+			'profile:icon:notfound' => "לא ניתן להעלות את תמונת הפרופיל.",
 	
 		/**
 		 * Friends
@@ -315,23 +315,23 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 			'friend:add' => "הפוך לחבר/ה",
 			'friend:remove' => "הסר חבר/ה",
 	
-			'friends:add:successful' => "You have successfully added %s as a friend.",
-			'friends:add:failure' => "We couldn't add %s as a friend. Please try again.",
+			'friends:add:successful' => "הוספת את %s בהצלחה כחבר.",
+			'friends:add:failure' => "לא ניתן להוסיף את %s כחבר. נסה שוב.",
 	
-			'friends:remove:successful' => "You have successfully removed %s from your friends.",
-			'friends:remove:failure' => "We couldn't remove %s from your friends. Please try again.",
+			'friends:remove:successful' => "הסרת את %s בהצלחה מרשימת החברים.",
+			'friends:remove:failure' => "לא ניתן להסיר את %s מרשימת החברים. נסה שוב.",
 	
-			'friends:none' => "This user hasn't added anyone as a friend yet.",
+			'friends:none' => "המשתמש טרם הוסיף חברים.",
 			'friends:none:you' => "You haven't added anyone as a friend! Search for your interests to begin finding people to follow.",
 	
 			'friends:none:found' => "לא נמצאו חברים.",
 	
-			'friends:of:none' => "Nobody has added this user as a friend yet.",
-			'friends:of:none:you' => "Nobody has added you as a friend yet. Start adding content and fill in your profile to let people find you!",
+			'friends:of:none' => "איש לא הוסיף את המשתמש כחבר.",
+			'friends:of:none:you' => "איש לא הוסיף אותך כחבר. הוסף תוכן ופרופיל כדי שאנשים יגלו אותך!",
 	
 			'friends:of:owned' => "People who have made %s a friend",
 
-			 'friends:num_display' => "Number of friends to display",
+			 'friends:num_display' => "מספר חברים בתצוגה",
 			 'friends:icon_size' => "גודל צלמית",
 			 'friends:tiny' => "קטנטנה",
 			 'friends:small' => "קטנה",
@@ -343,15 +343,15 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 			 'friends:collectionname' => "שם האוסף",
 			 'friends:collectionfriends' => "חברים באוסף",
 			 'friends:collectionedit' => "עריכת אוסף זה",
-			 'friends:nocollections' => "You do not yet have any collections.",
-			 'friends:collectiondeleted' => "Your collection has been deleted.",
-			 'friends:collectiondeletefailed' => "We were unable to delete the collection. Either you don't have permission, or some other problem has occurred.",
-			 'friends:collectionadded' => "Your collection was successfuly created",
-			 'friends:nocollectionname' => "You need to give your collection a name before it can be created.",
-			 'friends:expandall' => 'Expand all',
-			 'friends:closeall' => 'Close all',
-			'friends:collections:members' => "Collection members",
-			'friends:collections:edit' => "Edit collection",
+			 'friends:nocollections' => "עדיין אין לך אוספים.",
+			 'friends:collectiondeleted' => "האוסף נמחק.",
+			 'friends:collectiondeletefailed' => "לא ניתן למחוק את האוסף. אין לך הרשאה או שהופיעה בעיה אחרת.",
+			 'friends:collectionadded' => "אוסף נוצר בהצלחה",
+			 'friends:nocollectionname' => "יש להוסיף שם לאוסף.",
+			 'friends:expandall' => 'פתח הכול',
+			 'friends:closeall' => 'סגור הכול',
+			'friends:collections:members' => "מספרי אוספים",
+			'friends:collections:edit' => "ערוך אוספים",
 		
 	        'friends:river:created' => "%s added the friends widget.",
 	        'friends:river:updated' => "%s updated their friends widget.",
@@ -404,7 +404,7 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 	
 			'search' => "חיפוש",
 			'searchtitle' => "חיפוש: %s",
-			'users:searchtitle' => "Searching for users: %s",
+			'users:searchtitle' => "חיפוש משתמשים: %s",
 			'advancedsearchtitle' => "%s שנמצאו בחיפוש של: %s",
 			'notfound' => "לא נמצאו תוצאות.",
 			'next' => "הבא",
@@ -417,7 +417,7 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 			'tag:search:startblurb' => "פריטים המכילים תגים: %s",
 
 			'user:search:startblurb' => "משמשים מתאימים ל: %s",
-			'user:search:finishblurb' => "To view more, click here.",
+			'user:search:finishblurb' => "לחץ כאן כדי לראות עוד.",
 	
 		/**
 		 * Account
@@ -433,15 +433,15 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 			'registerbad' => "פעולת רישום נכשלה, יכול להיות שכבר קיים שם משתמש כזה או שהסיסמא שבחרת קצרה מדי.",
 			'registerdisabled' => "מערכת רישום נוטרלה בידי מנהל המערכת.",
 	
-			'registration:notemail' => 'The email address you provided does not appear to be a valid email address.',
+			'registration:notemail' => 'כתובת הדוא"ל אינה תקינה.',
 			'registration:userexists' => 'שם משתמש קיים כבר במערכת',
-			'registration:usernametooshort' => 'Your username must be a minimum of 4 characters long.',
-			'registration:passwordtooshort' => 'The password must be a minimum of 6 characters long.',
-			'registration:dupeemail' => 'This email address has already been registered.',
-			'registration:invalidchars' => 'Sorry, your username contains invalid characters.',
-			'registration:emailnotvalid' => 'Sorry, the email address you entered is invalid on this system',
-			'registration:passwordnotvalid' => 'Sorry, the password you entered is invalid on this system',
-			'registration:usernamenotvalid' => 'Sorry, the username you entered is invalid on this system',
+			'registration:usernametooshort' => 'על שם המשתמש להיות 4 תווים לפחות.',
+			'registration:passwordtooshort' => 'על הסיסמה להיות 6 תווים לפחות.',
+			'registration:dupeemail' => 'כתובת הדוא"ל כבר רשומה.',
+			'registration:invalidchars' => 'תווים לא חוקיים בשם המשתמש.',
+			'registration:emailnotvalid' => 'כתובת דוא"ל לא חוקית',
+			'registration:passwordnotvalid' => 'סיסמה לא חוקית',
+			'registration:usernamenotvalid' => 'שם משתמש לא חוקי',
 	
 			'adduser' => "הוספת משתמש",
 			'adduser:ok' => "הוספת משתמש חדש הצליחה.",
@@ -470,10 +470,10 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 			'user:username:notfound' => 'שם משתמש %s לא נמצא.',
 	
 			'user:password:lost' => 'שכחתי סיסמא',
-			'user:password:resetreq:success' => 'Successfully requested a new password, email sent',
-			'user:password:resetreq:fail' => 'Could not request a new password.',
+			'user:password:resetreq:success' => 'הודעת דוא"ל נשלחה על סיסמה חדשה',
+			'user:password:resetreq:fail' => 'לא ניתן לשלוח סיסמה חדשה.',
 	
-			'user:password:text' => 'To generate a new password, enter your username below. We will send the address of a unique verification page to you via email click on the link in the body of the message and a new password will be sent to you.',
+			'user:password:text' => 'רשום את שם המשתמש ליצירת סיסמה חדשה. הודעת אישור תישלח לדוא"ל שלך. לחץ על הקישור בהודעה וסיסמה חדשה תישלח אליך.',
 	
 			'user:persistent' => 'זכור אותי',
 		/**
@@ -489,8 +489,8 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 			'admin:user' => "ניהול משתמשים",
 			'admin:user:description' => ".מסך ניהול זה מאפשר לנהל את תכונות משתמשי המערכת. בחר באפשרות הרצויה",
 			'admin:user:adduser:label' => "...לחץ בכדי להוסיף משמש חדש למערכת",
-			'admin:user:opt:linktext' => "Configure users...",
-			'admin:user:opt:description' => "Configure users and account information. ",
+			'admin:user:opt:linktext' => "ניהול משתמשים...",
+			'admin:user:opt:description' => "ניהול משתמשים ומידע חשבון. ",
 			
 			'admin:site' => "ניהול האתר",
 			'admin:site:description' => "This admin panel allows you to control global settings for your site. Choose an option below to get started.",
@@ -536,8 +536,8 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 			'admin:user:delete:no' => "Can not delete user",
 			'admin:user:delete:yes' => "User deleted",
 	
-			'admin:user:resetpassword:yes' => "Password reset, user notified.",
-			'admin:user:resetpassword:no' => "Password could not be reset.",
+			'admin:user:resetpassword:yes' => "סיסמה אופסה, הודעה נשלחה למשתמש.",
+			'admin:user:resetpassword:no' => "לא ניתן לאפס סיסמה.",
 	
 			'admin:user:makeadmin:yes' => "המשתמש הוא מעכשיו מנהל מערכת.",
 			'admin:user:makeadmin:no' => "לא ניתן להפוך משתמש זה למנהל מערכת.",
@@ -631,7 +631,7 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 	
 			'by' => 'על ידי',
 	
-			'annotations' => "Annotations",
+			'annotations' => "הערות",
 			'relationships' => "יחסים",
 			'metadata' => "Metadata",
 	
@@ -639,7 +639,7 @@ To remove a widget drag it back to the <b>Widget gallery</b>.",
 		 * Input / output strings
 		 */
 
-			'deleteconfirm' => "Are you sure you want to delete this item?",
+			'deleteconfirm' => "אתה בטוח שברצונך למחוק זאת?",
 			'fileexists' => "A file has already been uploaded. To replace it, select it below:",
 			
 			
@@ -766,9 +766,9 @@ Alternatively, you can enter your database settings below and we will try and do
 			'email:address:label' => "כתובת הדואר האלקטרוני שלך",
 			
 			'email:save:success' => "New email address saved, verification requested.",
-			'email:save:fail' => "Your new email address could not be saved.",
+			'email:save:fail' => "לא ניתן לשמור כתובת דוא"ל חדשה.",
 	
-			'email:confirm:success' => "You have confirmed your email address!",
+			'email:confirm:success' => "כתובת דוא"ל אושרה!",
 			'email:confirm:fail' => "Your email address could not be verified...",
 	
 			'friend:newfriend:subject' => "%s has made you a friend!",
@@ -814,14 +814,14 @@ If you requested this click on the link below, otherwise ignore this email.
 	
 			'generic_comments:add' => "הוספת תגובה",
 			'generic_comments:text' => "תגובה",
-			'generic_comment:posted' => "Your comment was successfully posted.",
-			'generic_comment:deleted' => "Your comment was successfully deleted.",
-			'generic_comment:blank' => "Sorry; you need to actually put something in your comment before we can save it.",
+			'generic_comment:posted' => "תגובה פורסמה בהצלחה.",
+			'generic_comment:deleted' => "תגובה נמחקה בהצלחה.",
+			'generic_comment:blank' => "יש להוסיף תוכן לתגובה לפני השמירה.",
 			'generic_comment:notfound' => "Sorry; we could not find the specified item.",
-			'generic_comment:notdeleted' => "Sorry; we could not delete this comment.",
-			'generic_comment:failure' => "An unexpected error occurred when adding your comment. Please try again.",
+			'generic_comment:notdeleted' => "לא ניתן למחוק תגובה.",
+			'generic_comment:failure' => "שגיאה ארעה בעת הוספת התגובה. נסה שוב.",
 	
-			'generic_comment:email:subject' => 'You have a new comment!',
+			'generic_comment:email:subject' => 'יש לך תגובה חדשה!',
 			'generic_comment:email:body' => "You have a new comment on your item \"%s\" from %s. It reads:
 
 			

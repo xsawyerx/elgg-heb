@@ -11,18 +11,18 @@
 			'thewire:posttitle' => "%s's notes on the wire: %s",
 			'thewire:everyone' => "כל המסרונים",
 	
-			'thewire:read' => "Wire posts",
+			'thewire:read' => "פוסטים",
 			
 			'thewire:strapline' => "%s",
 	
 			'thewire:add' => "פרסום מסרון חדש",
 		    'thewire:text' => "מסרון ברשת",
 			'thewire:reply' => "תגובה",
-			'thewire:via' => "via",
+			'thewire:via' => "באמצעות",
 			'thewire:wired' => "נשלח ברשת",
 			'thewire:charleft' => "אותיות נותרו",
 			'item:object:thewire' => "מסרונים קצרים",
-			'thewire:notedeleted' => "note deleted",
+			'thewire:notedeleted' => "הודעה נמחקה",
 			'thewire:doing' => "מה אתם עושים עכשיו? רשמו מסרון שכולם ידעו!",
 			'thewire:newpost' => 'מסרון חדש',
 			'thewire:addpost' => 'מסרון חדש',
@@ -42,11 +42,11 @@
 	     * Wire widget
 	     **/
 	     
-	        'thewire:sitedesc' => 'This widget shows the latest site notes posted to the wire',
-	        'thewire:yourdesc' => 'This widget shows your latest notes posted to the wire',
-	        'thewire:friendsdesc' => 'This widget will show the latest from your friends on the wire',
-	        'thewire:friends' => 'Your friends on the wire',
-	        'thewire:num' => 'Number of items to display',
+	        'thewire:sitedesc' => 'הודעות אחרונות באתר',
+	        'thewire:yourdesc' => 'הודעות אחרונות שלך',
+	        'thewire:friendsdesc' => 'הודעות אחרונות של החברים שלך',
+	        'thewire:friends' => 'החברים שלך',
+	        'thewire:num' => 'מספר פריטים לתצוגה',
 	        
 	        
 	
@@ -54,23 +54,23 @@
 		 * Status messages
 		 */
 	
-			'thewire:posted' => "Your message was successfully posted to the wire.",
-			'thewire:deleted' => "Your note was successfully deleted.",
+			'thewire:posted' => "הודעה פורסמה בהצלחה.",
+			'thewire:deleted' => "הודעה נמחקה בהצלחה.",
 	
 		/**
 		 * Error messages
 		 */
 	
-			'thewire:blank' => "Sorry; you need to actually put something in the textbox before we can save it.",
-			'thewire:notfound' => "Sorry; we could not find the specified note.",
-			'thewire:notdeleted' => "Sorry; we could not delete this shout.",
+			'thewire:blank' => "נא להוסיף תוכן לפני השמירה.",
+			'thewire:notfound' => "לא ניתן למצוא את ההודעה.",
+			'thewire:notdeleted' => "לא ניתן למחוק.",
 	
 	
 		/**
 		 * Settings
 		 */
-			'thewire:smsnumber' => "Your SMS number if different from your mobile number (mobile number must be set to public for the wire to be able to use it). All phone numbers must be in international format.",
-			'thewire:channelsms' => "The number to send SMS messages to is <b>%s</b>",
+			'thewire:smsnumber' => "מספר המסרון שונה ממספר הנייד. יש להוסיף קידומת בינלאומית.",
+			'thewire:channelsms' => "נא לשלוח מסרון ל<b>%s</b>",
 			
 	);
 					

@@ -9,16 +9,16 @@
 	
 		'notifications:subscriptions:collections:title' => 'סימון/ביטול של רשימת חברים',
 		'notifications:subscriptions:collections:description' => 'בחרו באפשרות הודעות. ',
-		'notifications:subscriptions:collections:edit' => 'בכדי לערוך את רשימת חבריכם, לחצו כאן.',
+		'notifications:subscriptions:collections:edit' => 'כדי לערוך את רשימת חבריכם, לחצו כאן.',
 	
 		'notifications:subscriptions:changesettings' => 'הודעות',
 		'notifications:subscriptions:changesettings:groups' => 'עדכונים מקבוצות העבודה שלי',
 		'notification:method:email' => 'דואר אלקטרוני',	
 	
 		'notifications:subscriptions:title' => 'הודעות לפי משתמש',
-		'notifications:subscriptions:description' => 'בכדי לקבל הודעה בכל פעם שחבריכם משנים תכנים באתר, מצאו אותם וסמנו קבלת הודעות.',
+		'notifications:subscriptions:description' => 'כדי לקבל הודעה בכל פעם שחבריכם משנים תכנים באתר, מצאו אותם וסמנו קבלת הודעות.',
 	
-		'notifications:subscriptions:groups:description' => 'בכדי לקבל הודעה בכל פעם שתכנים נוספים בקבוצות שלכם סמנו את דרך קבלת ההודעות הרצויה.',
+		'notifications:subscriptions:groups:description' => 'כדי לקבל הודעה בכל פעם שתכנים נוספים בקבוצות שלכם סמנו את דרך קבלת ההודעות הרצויה.',
 	
 		'notifications:subscriptions:success' => 'הגדרות הודעות נשמרה.',
 	

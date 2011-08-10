@@ -15,7 +15,7 @@
 			'bookmarks:bookmarklet' => "הוספה של ממליצן לדפדפן",
 			'bookmarks:inbox' => "קישורים מומלצים - דואר נכנס",
 			'bookmarks:more' => "קישורים מומלצים נוספים",
-			'bookmarks:shareditem' => "Bookmarked item",
+			'bookmarks:shareditem' => "רכיב סימניה",
 			'bookmarks:with' => "שיתוף עם",
 	
 			'bookmarks:address' => "כתובת האינטרנט של הקישור המומלץ",
@@ -49,7 +49,7 @@
 					"If you are using Internet Explorer, you will need to right click on the bookmarklet icon, select 'add to favorites', and then the Links bar.",
 
 			'bookmarks:bookmarklet:description:conclusion' =>
-					"You can then save any page you visit by clicking it at any time.",
+					"ניתן לשמור כל דף על ידי לחיצה.",
 	
 		/**
 		 * Status messages

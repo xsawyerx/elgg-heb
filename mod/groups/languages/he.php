@@ -35,8 +35,8 @@
 			'groups:access' => "הרשאות גישה",
 			'groups:owner' => "בעלים",
 	        'groups:widget:num_display' => 'מספר קבוצות להצגה',
-	        'groups:widget:membership' => 'Group membership',
-	        'groups:widgets:description' => 'Display the groups you are a member of on your profile',
+	        'groups:widget:membership' => 'חברות בקבוצה',
+	        'groups:widgets:description' => 'הצג קבוצות בפרופיל',
 			'groups:noaccess' => 'אין גישה לקבוצה',
 			'groups:cantedit' => 'אין בסמכותך לערוך קבוצה זו',
 			'groups:saved' => 'קבוצה עודכנה',
@@ -50,7 +50,7 @@
 			'groups:leave' => 'עזיבת הקבוצה',
 			'groups:invite' => 'הזמנת חברים',
 			'groups:inviteto' => "הזמנת חברים ל%s",
-			'groups:nofriends' => "You have no friends left who have not been invited to this group.",
+			'groups:nofriends' => "כל חבריך הוזמנו לקבוצה.",
 	
 			'groups:group' => "קבוצה",
 			
@@ -68,7 +68,7 @@
 			 */
 			'groups:access:private' => 'סגורה - חברות לפי הזמנה בלבד',
 			'groups:access:public' => 'פתוחה - כל אחד יכול להצטרף',
-			'groups:closedgroup' => 'This group has a closed membership. To ask to be added, click the "request membership" menu link.',
+			'groups:closedgroup' => 'קבוצה זו סגורה. אם ברצונך להצטרף, לחץ על "בקשת חברות".',
 	
 			/*
 			   Group tools
@@ -79,8 +79,8 @@
 			'groups:yes' => 'כן',
 			'groups:no' => 'לא',
 	
-			'group:created' => 'Created %s with %d posts',
-			'groups:lastupdated' => 'Last updated %s by %s',
+			'group:created' => 'נוצר %s עם %d פוסטים',
+			'groups:lastupdated' => 'עודכן לאחרונה %s על ידי %s',
 			'groups:pages' => 'דפי קבוצה',
 			'groups:files' => 'קבצי קבוצה',
 	
@@ -98,8 +98,8 @@
 			'groupspost:success' => 'הערתך נרשמה',
 			'groups:alldiscussion' => 'דיונים אחרונים',
 			'groups:edittopic' => 'עריכת נושא',
-			'groups:topicmessage' => 'Topic message',
-			'groups:topicstatus' => 'Topic status',
+			'groups:topicmessage' => 'הודעת נושא',
+			'groups:topicstatus' => 'סטטוס נושא',
 			'groups:reply' => 'הוסף הערה',
 			'groups:topic' => 'נושא',
 			'groups:posts' => 'תגובות',
@@ -113,64 +113,64 @@
 			'groupstopic:deleted' => 'נושא לדיון נמחק',
 			'groups:topicsticky' => 'קבוע',
 			'groups:topicisclosed' => 'נושא לדיון זה סגור.',
-			'groups:topiccloseddesc' => 'This topic has now been closed and is not accepting new comments.',
-			'grouptopic:error' => 'Your group topic could not be created. Please try again or contact a system administrator.',
+			'groups:topiccloseddesc' => 'הנושא סגור להודעות חדשות.',
+			'grouptopic:error' => 'לא ניתן ליצור נושא. נסה שוב או צור קשר עם מנהל המערכת.',
 	
-			'groups:privategroup' => 'This group is private, requesting membership.',
-			'groups:notitle' => 'Groups must have a title',
-			'groups:cantjoin' => 'Can not join group',
-			'groups:cantleave' => 'Could not leave group',
-			'groups:addedtogroup' => 'Successfully added the user to the group',
-			'groups:joinrequestnotmade' => 'Join request could not be made',
-			'groups:joinrequestmade' => 'Request to join group successfully made',
-			'groups:joined' => 'Successfully joined group!',
-			'groups:left' => 'Successfully left group',
-			'groups:notowner' => 'Sorry, you are not the owner of this group.',
-			'groups:alreadymember' => 'You are already a member of this group!',
-			'groups:userinvited' => 'User has been invited.',
-			'groups:usernotinvited' => 'User could not be invited.',
+			'groups:privategroup' => 'הקבוצה פרטית. מבקש חברות.',
+			'groups:notitle' => 'יש להוסיף כותרת לקבוצות',
+			'groups:cantjoin' => 'לא ניתן להצטרף לקבוצה',
+			'groups:cantleave' => 'לא ניתן לעזוב את הקבוצה',
+			'groups:addedtogroup' => 'המשתמש נוסף בהצלחה לקבוצה',
+			'groups:joinrequestnotmade' => 'לא ניתן להצטרף',
+			'groups:joinrequestmade' => 'בקשת הצטרפות נשלחה',
+			'groups:joined' => 'הצטרפות בוצעה בהצלחה!',
+			'groups:left' => 'עזיבת קבוצה בוצעה בהצלחה',
+			'groups:notowner' => 'אינך הבעלים של הקבוצה.',
+			'groups:alreadymember' => 'אתה כבר חבר בקבוצה!',
+			'groups:userinvited' => 'המשתמש הוזמן.',
+			'groups:usernotinvited' => 'לא ניתן להזמין משתמש.',
 	
-			'groups:invite:subject' => "%s you have been invited to join %s!",
-			'groups:invite:body' => "Hi %s,
+			'groups:invite:subject' => "%s הוזמנת להצטרף ל%s!",
+			'groups:invite:body' => "שלום %s,
 
-You have been invited to join the '%s' group, click below to confirm:
+הוזמנת להצטרף לקבוצה '%s', לחץ למטה לאישור:
 
 %s",
 
-			'groups:welcome:subject' => "Welcome to the %s group!",
-			'groups:welcome:body' => "Hi %s!
+			'groups:welcome:subject' => "ברוך הבא לקבוצת %s!",
+			'groups:welcome:body' => "שלום %s!
 		
-You are now a member of the '%s' group! Click below to begin posting!
+אתה חבר בקבוצת '%s'! לחץ למטה להעלאת פוסטים!
 
 %s",
 	
-			'groups:request:subject' => "%s has requested to join %s",
-			'groups:request:body' => "Hi %s,
+			'groups:request:subject' => "%s ביקש להצטרף ל%s",
+			'groups:request:body' => "שלום %s,
 
-%s has requested to join the '%s' group, click below to view their profile:
+%s ביקש להצטרף לקבוצת '%s', לחץ למטה כדי לראות את הפרופיל:
 
 %s
 
-or click below to confirm request:
+או לחץ למטה לאישור:
 
 %s",
 	
-			'groups:river:member' => 'is now a member of',
+			'groups:river:member' => 'חבר כעת ב',
 	
-			'groups:nowidgets' => 'No widgets have been defined for this group.',
+			'groups:nowidgets' => 'לא נקבע סמל לקבוצה.',
 	
 	
-			'groups:widgets:members:title' => 'Group members',
-			'groups:widgets:members:description' => 'List the members of a group.',
-			'groups:widgets:members:label:displaynum' => 'List the members of a group.',
-			'groups:widgets:members:label:pleaseedit' => 'Please configure this widget.',
+			'groups:widgets:members:title' => 'חברי הקבוצה',
+			'groups:widgets:members:description' => 'רשימת חברי הקבוצה.',
+			'groups:widgets:members:label:displaynum' => 'הצג את חברי הקבוצה.',
+			'groups:widgets:members:label:pleaseedit' => 'נא לעדכן סמל.',
 	
 			'groups:widgets:entities:title' => "Objects in group",
 			'groups:widgets:entities:description' => "List the objects saved in this group",
 			'groups:widgets:entities:label:displaynum' => 'List the objects of a group.',
-			'groups:widgets:entities:label:pleaseedit' => 'Please configure this widget.',
+			'groups:widgets:entities:label:pleaseedit' => 'נא לעדכן סמל.',
 		
-			'groups:forumtopic:edited' => 'Forum topic successfully edited.',
+			'groups:forumtopic:edited' => 'נושא הפורום עודכן בהצלחה.',
 	);
 					
 	add_translation("he",$hebrew);

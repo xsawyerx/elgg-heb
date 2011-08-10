@@ -54,10 +54,10 @@
 		 * Error messages
 		 */
 	
-			'blog:save:failure' => "Your blog post could not be saved. Please try again.",
-			'blog:blank' => "Sorry; you need to fill in both the title and body before you can make a post.",
-			'blog:notfound' => "Sorry; we could not find the specified blog post.",
-			'blog:notdeleted' => "Sorry; we could not delete this blog post.",
+			'blog:save:failure' => "לא ניתן לשחזר את הפוסט, נסה שוב",
+			'blog:blank' => "לפוסט נדרשים כותרת ותוכן",
+			'blog:notfound' => "לא ניתן למצוא את הפוסט",
+			'blog:notdeleted' => "לא ניתן למחוק את הפוסט",
 	
 	);
 					

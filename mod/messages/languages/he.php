@@ -19,7 +19,7 @@
 			'messages:to' => "נמען",
             'messages:from' => "מאת",
 			'messages:fly' => "שליחה",
-			'messages:replying' => "Message replying to",
+			'messages:replying' => "מענה",
 			'messages:inbox' => "דואר נכנס",
 			'messages:sendmessage' => "שליחת הודעה",
 			'messages:compose' => "שלח הודעה",
@@ -68,12 +68,12 @@
 		 * Error messages
 		 */
 	
-			'messages:blank' => "Sorry; you need to actually put something in the message body before we can save it.",
-			'messages:notfound' => "Sorry; we could not find the specified message.",
-			'messages:notdeleted' => "Sorry; we could not delete this message.",
-			'messages:nopermission' => "You do not have permission to delete that message.",
-			'messages:nomessages' => "There are no messages to display.",
-			'messages:user:nonexist' => "We could not find the recipient in the user database.",
+			'messages:blank' => "נא להוסיף תוכן לפני השמירה.",
+			'messages:notfound' => "לא ניתן למצוא את ההודעה.",
+			'messages:notdeleted' => "לא ניתן למחוק את ההודעה.",
+			'messages:nopermission' => "אין הרשאה למחוק את ההודעה.",
+			'messages:nomessages' => "אין הודעות להציג.",
+			'messages:user:nonexist' => "לא ניתן למצוא את הנמען במאגר המידע.",
 	
 	);
 					

@@ -18,7 +18,7 @@ $hebrew = array(
   'blog:widget:default'=>"רגיל",
   'blog:widget:compact'=>"קומפקטי",
 
-  'contents:empty'=>"There is no contents registered at this moment",
+  'contents:empty'=>"אין תוכן ברגע זה",
 
   'blog:extratypes:enable'=> "Enable blog type support?",
   'blog:group:contents'=> "Enable group post publishing?",
