@@ -766,9 +766,9 @@ Alternatively, you can enter your database settings below and we will try and do
 			'email:address:label' => "כתובת הדואר האלקטרוני שלך",
 			
 			'email:save:success' => "New email address saved, verification requested.",
-			'email:save:fail' => "לא ניתן לשמור כתובת דוא"ל חדשה.",
+			'email:save:fail' => "לא ניתן לשמור כתובת דוא\"ל חדשה.",
 	
-			'email:confirm:success' => "כתובת דוא"ל אושרה!",
+			'email:confirm:success' => "כתובת דוא\"ל אושרה!",
 			'email:confirm:fail' => "Your email address could not be verified...",
 	
 			'friend:newfriend:subject' => "%s has made you a friend!",
